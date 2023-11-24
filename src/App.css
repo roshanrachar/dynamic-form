@@ -1,0 +1,123 @@
+.header{
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+}
+/* Cool Button Styles */
+.cool-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  width: 150px; 
+  height: 40px; 
+}
+
+/* Blue Button */
+.cool-button.blue {
+  background-color: #3498db; /* Blue background color */
+  color: #fff; /* White text color */
+}
+
+.cool-button.blue:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+  color: #fff; /* White text color on hover */
+}
+
+/* Red Button */
+.cool-button.red {
+  background-color: #e74c3c; /* Red background color */
+  color: #fff; /* White text color */
+}
+
+.cool-button.red:hover {
+  background-color: #c0392b;
+  color: #fff; 
+}
+
+
+.cool-button.purple {
+  background-color: #9b59b6;
+  color: #fff; 
+}
+
+.cool-button.purple:hover {
+  background-color: #8e44ad; 
+  color: #fff; 
+}
+
+.btn-background {
+  background: linear-gradient(45deg, #3498db, #9b59b6); /* Gradient from blue to purple */
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px; /* Add margin if needed */
+}
+
+/* Apply to each button */
+.btn-background button {
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.btn-background button:hover {
+  background: linear-gradient(45deg, #2980b9, #8e44ad); 
+  color: #fff;
+}
+
+.style-input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #3498db; 
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.style-input:focus {
+  border-color: #9b59b6; 
+}
+
+.cool-select {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #3498db; /* Blue border color */
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.cool-select:focus {
+  border-color: #9b59b6; /* Purple border color on focus */
+}
+
+/* Radio Styles */
+.cool-radio {
+  margin-right: 5px;
+  outline: none;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.cool-radio:checked {
+  color: #9b59b6;
+}
+
+
+.cool-select option {
+  background-color: #3498db;
+  color: #fff; 
+}
+
+.cool-select option:hover {
+  background-color: #2980b9; 
+  color: #fff; 
+}
